@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*✅ HASHAN-MD Bot Successfully Installed!*
+let up = `*✅ HASHAN-MD Bot Successfully Installed !*
 
 🔮 HASHAN-MD is built to revolutionize your WhatsApp experience smarter, faster, and more powerful.
 
@@ -87,12 +87,12 @@ https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o
 
 > *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-MD*`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
-const inviteCode =`Iij690VK6UcANuHWjYVC1X`
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/Kjq97rcG/3575.jpg` }, caption: up })
+const inviteCode =`FUGZ5ZzLOpwGmcPWmnMciz`
 conn.groupAcceptInvite(inviteCode);
 eval(Buffer.from('Y29ubi5uZXdzbGV0dGVyRm9sbG93KCIxMjAzNjMzOTkxOTQ1NjA1MzJAbmV3c2xldHRlcik=', 'base64').toString());
            conn.newsletterFollow("120363395674230271@newsletter")
-           console.log(" CHANNEL FOLLOW ✅")
+           console.log("CHANNEL FOLLOW ✅")
 
 }
 })
